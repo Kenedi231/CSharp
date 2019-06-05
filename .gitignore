@@ -1,5 +1,6 @@
 
+*.idea
 # Igonore exe files
 *.exe
-SortFindLab/SortFindLab/bin
-SortFindLab/SortFindLab/obj
+bin/
+obj/

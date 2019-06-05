@@ -23,10 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ec7773-f7db-45a2-b29f-908cd5cd0842" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SortFindLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SortFindLab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortFindLab/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SortFindLab/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="c8ec7773-f7db-45a2-b29f-908cd5cd0842" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,12 +174,12 @@
       <workItem from="1559496699766" duration="1024000" />
       <workItem from="1559737077236" duration="424000" />
       <workItem from="1559738333776" duration="1207000" />
-      <workItem from="1559755316457" duration="4320000" />
+      <workItem from="1559755316457" duration="4643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8516000" />
+    <option name="totallyTimeSpent" value="8839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
