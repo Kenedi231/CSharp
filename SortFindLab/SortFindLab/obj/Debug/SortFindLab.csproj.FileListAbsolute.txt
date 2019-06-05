@@ -1,0 +1,6 @@
+/home/avmai/csharplabs/SortFindLab/SortFindLab/bin/Debug/SortFindLab.exe
+/home/avmai/csharplabs/SortFindLab/SortFindLab/bin/Debug/SortFindLab.pdb
+/home/avmai/csharplabs/SortFindLab/SortFindLab/obj/Debug/SortFindLab.csprojAssemblyReference.cache
+/home/avmai/csharplabs/SortFindLab/SortFindLab/obj/Debug/SortFindLab.csproj.CoreCompileInputs.cache
+/home/avmai/csharplabs/SortFindLab/SortFindLab/obj/Debug/SortFindLab.exe
+/home/avmai/csharplabs/SortFindLab/SortFindLab/obj/Debug/SortFindLab.pdb
