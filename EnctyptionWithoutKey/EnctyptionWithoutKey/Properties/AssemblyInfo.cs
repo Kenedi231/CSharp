@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NumberSystemsLab")]
+[assembly: AssemblyTitle("EnctyptionWithoutKey")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NumberSystemsLab")]
+[assembly: AssemblyProduct("EnctyptionWithoutKey")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("77F06C6C-06D4-41A0-8DF9-394E2B61365F")]
+[assembly: Guid("6FADAFDD-1DFF-4665-9936-7E05F98438B6")]
 
 // Version information for an assembly consists of the following four values:
 //

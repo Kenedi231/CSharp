@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{77F06C6C-06D4-41A0-8DF9-394E2B61365F}</ProjectGuid>
+        <ProjectGuid>{6FADAFDD-1DFF-4665-9936-7E05F98438B6}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>NumberSystemsLab</RootNamespace>
-        <AssemblyName>NumberSystemsLab</AssemblyName>
+        <RootNamespace>EnctyptionWithoutKey</RootNamespace>
+        <AssemblyName>EnctyptionWithoutKey</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>

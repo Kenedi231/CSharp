@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionByKey", "EncryptionByKey\EncryptionByKey.csproj", "{2988F9DF-822B-44A2-8E10-1F1AC8CBEAC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2988F9DF-822B-44A2-8E10-1F1AC8CBEAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2988F9DF-822B-44A2-8E10-1F1AC8CBEAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2988F9DF-822B-44A2-8E10-1F1AC8CBEAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2988F9DF-822B-44A2-8E10-1F1AC8CBEAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ShifrByKey")]
+[assembly: AssemblyTitle("EncryptionByKey")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ShifrByKey")]
+[assembly: AssemblyProduct("EncryptionByKey")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("DD6D4A21-33AC-4889-A867-0D99A207AB07")]
+[assembly: Guid("2988F9DF-822B-44A2-8E10-1F1AC8CBEAC1")]
 
 // Version information for an assembly consists of the following four values:
 //

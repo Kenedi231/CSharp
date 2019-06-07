@@ -100,7 +100,7 @@ namespace NumberSystems
 
         public static string ConvertDecToAnother(double decNumber, int system)
         {
-            int number = Convert.ToInt16(decNumber);
+            long number = Convert.ToInt32(decNumber);
             bool work = true;
             var ns = system;
             string result = "";
@@ -129,9 +129,9 @@ namespace NumberSystems
     {
         public static void Main(string[] args)
         {
-            Console.Write("Enter input number of systems: ");
+            Console.Write("Enter input number of systems(=<36): ");
             int nsi = Convert.ToInt16(Console.ReadLine());
-            if (nsi > 36)
+            if (nsi >= 36)
             {
                 Console.WriteLine("This number of systems is not supported!");
                 return;
@@ -152,9 +152,9 @@ namespace NumberSystems
             {
                 decNumber = Convert.ToDouble(number);
             }
-            Console.Write("Enter output number of systems: ");
+            Console.Write("Enter output number of systems(<=36): ");
             int nso = Convert.ToInt16(Console.ReadLine());
-            if (nso > 36)
+            if (nso >= 36)
             {
                 Console.WriteLine("This number of systems is not supported!");
                 return;

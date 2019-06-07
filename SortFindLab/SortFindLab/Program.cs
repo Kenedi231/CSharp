@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace SortFindLab
 {
     public class Common
     {
+        public static int Max = 10000; 
         private static bool checkDuplicate(int[] numbers, int len, int newEl)
         {
             for (var i = 0; i < len; i++)
@@ -25,7 +27,7 @@ namespace SortFindLab
             {
                 do
                 {
-                    num = rnd.Next(0, 100);
+                    num = rnd.Next(0, Max);
                 } while (checkDuplicate(numbers, i, num));
                 numbers[i] = num;
             }
@@ -195,30 +197,48 @@ namespace SortFindLab
         {
             Console.Write("Enter count of number: ");
             int len = Convert.ToInt16(Console.ReadLine());
-            
+            if (len > Common.Max)
+            {
+                Console.WriteLine("It`s sooo big");
+                Environment.Exit(0);
+            }
             int[] numbers = Common.Init(len);
             int[] twoArr = Common.Copy(numbers, len);
+            Stopwatch watch = new Stopwatch();
+            
             
             Console.WriteLine("Initial massive: ");
             Common.Display(numbers);
             
+            watch.Start();
             SortAlgoritm.BubbleSort(numbers, len);
+            watch.Stop();
             Console.WriteLine("BubbleSort: ");
-            Common.Display(numbers);
+            // Common.Display(numbers);
+            Console.WriteLine($"Time: {watch.Elapsed}");
             
+            watch.Restart();
             SortAlgoritm.QuickSort(twoArr, 0, len - 1);
+            watch.Stop();
             Console.WriteLine("QuickSort: ");
-            Common.Display(twoArr);
+            // Common.Display(twoArr);
+            Console.WriteLine($"Time: {watch.Elapsed}");
             
             Console.Write("Enter number to search: ");
             int num = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("LinearSearch: ");
+            watch.Restart();
             var res = FindAlgoritm.LinearSearch(numbers, num);
-            Common.DisplayElement(res);
+            watch.Stop();
+            // Common.DisplayElement(res);
+            Console.WriteLine($"Time: {watch.Elapsed}");
             
             Console.WriteLine("BinarySearch: ");
+            watch.Restart();
             var result = FindAlgoritm.BinarySearch(numbers, num);
-            Common.DisplayElement(result);
+            watch.Stop();
+            // Common.DisplayElement(result);
+            Console.WriteLine($"Time: {watch.Elapsed}");
             
             Console.ReadKey();
         }
